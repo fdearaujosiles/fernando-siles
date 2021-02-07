@@ -170,7 +170,7 @@ body {
     .fullscreen > span { margin-top: 15px; }
     .fullscreen { margin: 0 1em; }
     .text > * { margin-top: 1em; }
-    .text a  { text-align: center; }
+    .text a  { margin: 1em auto; }
 
     #scarecrow {
         width: 100%;
