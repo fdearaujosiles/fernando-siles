@@ -9,6 +9,6 @@
 This is basically my HTML+CSS portfolio.
 I wanted to learn better CSS and make some nice pages, so I started this little personal project.
 
-[You can access it through here](https://fernando-siles.herokuapp.com/)
+[You can access it through here](https://fernandosiles.herokuapp.com/)
 
 [@fdearaujosiles](https://twitter.com/fdearaujosiles)
