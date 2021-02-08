@@ -13,6 +13,9 @@ header {
   align-items: center;
   justify-content: space-between;
 }
+header > * { flex: 0 0 33%; }
+header > *:nth-child(2) { text-align: center; }
+header > *:nth-child(3) { text-align: right; }
 header .config { flex-grow: 0; flex-shrink: 0; }
 nav a {
   border-right: 1px solid #5FBFF9;
