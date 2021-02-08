@@ -9,8 +9,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
-app.use('*', router);
-
 router.get('/', (req, res) =>
     res.render('pages/index'));
 router.get('/pages', (req, res) =>
@@ -18,4 +16,6 @@ router.get('/pages', (req, res) =>
 router.get('*', (req, res) =>
     res.render('pages/404'));
 
+
+app.use('*', router);
 app.listen(PORT, () => console.log(`Listening on ${ PORT }`));
