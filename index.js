@@ -3,12 +3,17 @@ const path = require('path')
 const PORT = process.env.PORT || 5000
 
 const app = express();
+const router = express.Router();
 
-express()
-    .use(express.static(path.join(__dirname, 'public')))
-    .set('views', path.join(__dirname, 'views'))
-    .set('view engine', 'ejs')
-    .get('/', (req, res) => res.render('pages/index'))
-    .get('/pages', (req, res) => res.render('pages/pages'))
-    .get('*', (req, res) => res.render('pages/404'))
-    .listen(PORT, () => console.log(`Listening on ${ PORT }`))
+app.use(express.static(path.join(__dirname, 'public')));
+app.set('views', path.join(__dirname, 'views'));
+app.set('view engine', 'ejs');
+
+router.get('/', (req, res) =>
+    res.render('pages/index'));
+router.get('/pages', (req, res) =>
+    res.render('pages/pages'));
+router.get('*', (req, res) =>
+    res.render('pages/404'));
+
+app.listen(PORT, () => console.log(`Listening on ${ PORT }`));
