@@ -17,6 +17,6 @@ It's just starting now so I'll keep adding up.
 
 ## Contact
 
-If you liked it you can contact me through:
+If you liked it, you can contact me through:
 - [My E-mail](mailto:fdearaujosiles@gmail.com)
 - [My LinkedIn](https://www.linkedin.com/in/fernando-a-siles/)
