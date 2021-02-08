@@ -6,9 +6,17 @@
 
 ## What's This?
 
-This is basically my HTML+CSS portfolio.
-I wanted to learn better CSS and make some nice pages, so I started this little personal project.
+This is my Developer portfolio.
+- Some pages I built
+- Some graphs I made with d3.js
+- Some personal projects
 
-[You can access it through here](https://fernandosiles.herokuapp.com/)
+It's just starting now so I'll keep adding up.
 
-[@fdearaujosiles](https://twitter.com/fdearaujosiles)
+[You can access it through here](https://fernando-siles.herokuapp.com/)
+
+## Contact
+
+If you liked it you can contact me through:
+- [My E-mail](mailto:fdearaujosiles@gmail.com)
+- [My LinkedIn](https://www.linkedin.com/in/fernando-a-siles/)
