@@ -9,6 +9,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
+app.use('*', router);
+
 router.get('/', (req, res) =>
     res.render('pages/index'));
 router.get('/pages', (req, res) =>
