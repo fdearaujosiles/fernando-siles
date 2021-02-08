@@ -17,5 +17,5 @@ router.get('*', (req, res) =>
     res.render('pages/404'));
 
 
-app.use('*', router);
+app.use('/', router);
 app.listen(PORT, () => console.log(`Listening on ${ PORT }`));
