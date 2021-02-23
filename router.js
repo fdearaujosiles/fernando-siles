@@ -5,7 +5,7 @@ router.route('/')
 
 router.route('/pages')
     .get( (req, res) => res.render('pages/pages'))
-router.post("/pagesjson",(req, res) => res.json(JSON.parse(`
+router.get("/pagesjson",(req, res) => res.json(JSON.parse(`
         [
             {title: "Home", url: "/"},
             {title: "Pages", url: "/pages"},
