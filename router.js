@@ -5,13 +5,11 @@ router.route('/')
 
 router.route('/pages')
     .get( (req, res) => res.render('pages/pages'))
-router.get("/pagesjson",(req, res) => res.json(JSON.parse(`
-        [
+router.get("/pagesjson",(req, res) => res.json([
             {title: "Home", url: "/"},
             {title: "Pages", url: "/pages"},
             {title: "404", url: "*"},
-        ]
-    `)))
+        ]))
 
 router.get('*', (req, res) => res.render('pages/404'));
 
