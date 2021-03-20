@@ -1,0 +1,56 @@
+<%- include ("../partials/header.ejs") %>
+
+<style>
+    #team {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .teamMember {
+        flex: 0 0 30%;
+    }
+    .teamMember:nth-child(2n) {
+        margin-top: 151px;
+    }
+</style>
+
+<div id="content">
+    <div id="info">
+
+    </div>
+    <div id="team">
+        <div class="teamMember">
+            <img src="/teampage/photo1.png" />
+            <span>Bill Mahoney</span>
+            <span>Product Owner</span>
+        </div>
+        <div class="teamMember">
+            <img src="/teampage/photo2.png" />
+            <span>Bill Mahoney</span>
+            <span>Product Owner</span>
+        </div>
+        <div class="teamMember">
+            <img src="/teampage/photo3.png" />
+            <span>Bill Mahoney</span>
+            <span>Product Owner</span>
+        </div>
+        <div class="teamMember">
+            <img src="/teampage/photo4.png" />
+            <span>Bill Mahoney</span>
+            <span>Product Owner</span>
+        </div>
+        <div class="teamMember">
+            <img src="/teampage/photo5.png" />
+            <span>Bill Mahoney</span>
+            <span>Product Owner</span>
+        </div>
+        <div class="teamMember">
+            <img src="/teampage/photo6.png" />
+            <span>Bill Mahoney</span>
+            <span>Product Owner</span>
+        </div>
+    </div>
+</div>
+
+<%- include ("../partials/footer.ejs") %>
